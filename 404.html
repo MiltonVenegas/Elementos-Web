@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" data-critters-container>
+
+<head><base href="https://MiltonVenegas.github.io/MiltonVenegas.github.io/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <title>Elementos web</title>
+<style>:root{--ion-color-primary:#3880ff;--ion-color-primary-rgb:56, 128, 255;--ion-color-primary-contrast:#ffffff;--ion-color-primary-contrast-rgb:255, 255, 255;--ion-color-primary-shade:#3171e0;--ion-color-primary-tint:#4c8dff;--ion-color-secondary:#3dc2ff;--ion-color-secondary-rgb:61, 194, 255;--ion-color-secondary-contrast:#ffffff;--ion-color-secondary-contrast-rgb:255, 255, 255;--ion-color-secondary-shade:#36abe0;--ion-color-secondary-tint:#50c8ff;--ion-color-tertiary:#5260ff;--ion-color-tertiary-rgb:82, 96, 255;--ion-color-tertiary-contrast:#ffffff;--ion-color-tertiary-contrast-rgb:255, 255, 255;--ion-color-tertiary-shade:#4854e0;--ion-color-tertiary-tint:#6370ff;--ion-color-success:#2dd36f;--ion-color-success-rgb:45, 211, 111;--ion-color-success-contrast:#ffffff;--ion-color-success-contrast-rgb:255, 255, 255;--ion-color-success-shade:#28ba62;--ion-color-success-tint:#42d77d;--ion-color-warning:#ffc409;--ion-color-warning-rgb:255, 196, 9;--ion-color-warning-contrast:#000000;--ion-color-warning-contrast-rgb:0, 0, 0;--ion-color-warning-shade:#e0ac08;--ion-color-warning-tint:#ffca22;--ion-color-danger:#eb445a;--ion-color-danger-rgb:235, 68, 90;--ion-color-danger-contrast:#ffffff;--ion-color-danger-contrast-rgb:255, 255, 255;--ion-color-danger-shade:#cf3c4f;--ion-color-danger-tint:#ed576b;--ion-color-dark:#222428;--ion-color-dark-rgb:34, 36, 40;--ion-color-dark-contrast:#ffffff;--ion-color-dark-contrast-rgb:255, 255, 255;--ion-color-dark-shade:#1e2023;--ion-color-dark-tint:#383a3e;--ion-color-medium:#92949c;--ion-color-medium-rgb:146, 148, 156;--ion-color-medium-contrast:#ffffff;--ion-color-medium-contrast-rgb:255, 255, 255;--ion-color-medium-shade:#808289;--ion-color-medium-tint:#9d9fa6;--ion-color-light:#f4f5f8;--ion-color-light-rgb:244, 245, 248;--ion-color-light-contrast:#000000;--ion-color-light-contrast-rgb:0, 0, 0;--ion-color-light-shade:#d7d8da;--ion-color-light-tint:#f5f6f9}@media (prefers-color-scheme: dark){body{--ion-color-primary:#428cff;--ion-color-primary-rgb:66,140,255;--ion-color-primary-contrast:#ffffff;--ion-color-primary-contrast-rgb:255,255,255;--ion-color-primary-shade:#3a7be0;--ion-color-primary-tint:#5598ff;--ion-color-secondary:#50c8ff;--ion-color-secondary-rgb:80,200,255;--ion-color-secondary-contrast:#ffffff;--ion-color-secondary-contrast-rgb:255,255,255;--ion-color-secondary-shade:#46b0e0;--ion-color-secondary-tint:#62ceff;--ion-color-tertiary:#6a64ff;--ion-color-tertiary-rgb:106,100,255;--ion-color-tertiary-contrast:#ffffff;--ion-color-tertiary-contrast-rgb:255,255,255;--ion-color-tertiary-shade:#5d58e0;--ion-color-tertiary-tint:#7974ff;--ion-color-success:#2fdf75;--ion-color-success-rgb:47,223,117;--ion-color-success-contrast:#000000;--ion-color-success-contrast-rgb:0,0,0;--ion-color-success-shade:#29c467;--ion-color-success-tint:#44e283;--ion-color-warning:#ffd534;--ion-color-warning-rgb:255,213,52;--ion-color-warning-contrast:#000000;--ion-color-warning-contrast-rgb:0,0,0;--ion-color-warning-shade:#e0bb2e;--ion-color-warning-tint:#ffd948;--ion-color-danger:#ff4961;--ion-color-danger-rgb:255,73,97;--ion-color-danger-contrast:#ffffff;--ion-color-danger-contrast-rgb:255,255,255;--ion-color-danger-shade:#e04055;--ion-color-danger-tint:#ff5b71;--ion-color-dark:#f4f5f8;--ion-color-dark-rgb:244,245,248;--ion-color-dark-contrast:#000000;--ion-color-dark-contrast-rgb:0,0,0;--ion-color-dark-shade:#d7d8da;--ion-color-dark-tint:#f5f6f9;--ion-color-medium:#989aa2;--ion-color-medium-rgb:152,154,162;--ion-color-medium-contrast:#000000;--ion-color-medium-contrast-rgb:0,0,0;--ion-color-medium-shade:#86888f;--ion-color-medium-tint:#a2a4ab;--ion-color-light:#222428;--ion-color-light-rgb:34,36,40;--ion-color-light-contrast:#ffffff;--ion-color-light-contrast-rgb:255,255,255;--ion-color-light-shade:#1e2023;--ion-color-light-tint:#383a3e}}html{--ion-dynamic-font:var(--ion-default-dynamic-font)}</style><link rel="stylesheet" href="styles.dbd52a9e44a3bc1e.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.dbd52a9e44a3bc1e.css"></noscript></head>
+
+<body style="background-color: #f0f0f0; margin: 0;">
+
+  <div class="container-md">
+    <h3 style="text-align: center; background-color: yellow;">Buscador</h3>
+    <form action="/search" method="get">
+      <label for="search">Buscar:</label>
+      <input type="text" id="search" name="q" placeholder="Ingresar referencia">
+      <input type="submit" value="Search">
+    </form>
+  </div>
+  <div class="container-md">
+    <h3 style="text-align: center; background-color: yellow;">Nav</h3>
+
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Library</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Data</li>
+      </ol>
+    </nav>
+  </div>
+
+  <div class="container-md">
+    <h3 style="text-align: center; background-color: yellow;">Card</h3>
+    <div class="card" style="width: 18rem; margin-top: 20px;">
+      <img src="./assets/Recurso.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Como tomar experiencia en desarrollo sin saber absolutamente nada en desarrollo</p>
+      </div>
+    </div>
+    <ul class="list-unstyled">
+      <h3 style="text-align: center; background-color: yellow;">Listas</h3>
+      <li class="media">
+        <img src="..." class="mr-3" alt="...">
+        <div class="media-body" style="width: 500px;">
+          <h5 class="mt-0 mb-1">Asesorias</h5>
+          <p>Busca cualquier clase de asesoria, ya sea por medio de cursos o por medio de alguien que tu conozcas que
+            sepa
+            acerca de desarrollo</p>
+        </div>
+      </li>
+      <li class="media my-4">
+        <img src="..." class="mr-3" alt="...">
+        <div class="media-body">
+          <h5 class="mt-0 mb-1">Conocimiento</h5>
+          <p>Puedes buscar diferentes paginas y foros en los cuales se comparten puestos y solicitudes para trabajos
+            minimos, de esta manera puedes adentrarte mas en el desarrollo</p>
+        </div>
+      </li>
+      <li class="media">
+        <img src="..." class="mr-3" alt="...">
+        <div class="media-body">
+          <h5 class="mt-0 mb-1">Voluntariado</h5>
+          <p>Puedes solicitar agregarte como voluntario en la construccion de algun sitio web que este en desarrollo,
+            esto
+            te ayudara a generar madera de desarrollo</p>
+        </div>
+      </li>
+  </ul></div>
+
+  <div class="container-md">
+    <h3 style="text-align: center; background-color: yellow;">Formulario</h3>
+    <form>
+      <div class="form-group row">
+        <label for="staticEmail" class="col-sm-2 col-form-label">Correo</label>
+        <div class="col-sm-10">
+          <input type="email" class="form-control" id="staticEmail">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+        <div class="col-sm-10">
+          <input type="password" class="form-control" id="inputPassword">
+        </div>
+      </div>
+    </form>
+  </div>
+
+
+  <div class="container-md">
+    <h3 style="text-align: center; background-color: yellow;">Imagen</h3>
+    <img src="./assets/rack.jpg" class="img-fluid" alt="...">
+  </div>
+
+  <div class="container-md">
+    <div class="row">
+      <div class="input-group" style="width: 500px;">
+        <h3 style="text-align: center; background-color: yellow;">TextArea</h3>
+        <div class="input-group-prepend">
+          <span class="input-group-text">Que fue lo que aprendiste?</span>
+        </div>
+        <textarea class="form-control" aria-label="With textarea"></textarea>
+      </div>
+      <h3 style="text-align: center; background-color: yellow;">Boton</h3>
+      <div class="col-sm">
+        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" onclick="Generar()">
+          Enviar
+        </a>
+        <div class="collapse" id="collapseExample">
+          <div class="card card-body">
+            Nos ayudas compartiendo esta pagina con compañeros
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-md">
+    <h3 style="text-align: center; background-color: yellow;">Video</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/9MCiixIkzUk?si=SpRYeAWWamwtEWV4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+  <div class="container-md" style="max-width: 500px; margin: auto;">
+    <h3 style="text-align: center; background-color: yellow;">Referencia</h3>
+    <p><a href="#about">About Us</a></p>
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<script src="runtime.eb45120ec613d6d3.js" type="module"></script><script src="polyfills.cf419aa12150fa3f.js" type="module"></script><script src="main.9dec187723749bd7.js" type="module"></script></body>
+
+</html>
